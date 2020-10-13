@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: odrodrig/guestbook:v1
+        image: odrodrig/guestbook:2
         ports:
         - name: http-server
           containerPort: 3000
